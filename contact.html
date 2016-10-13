@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="myScript.js"></script>
+    <title>ShadyCult Contact Us</title>
+	</head>
+	<body>
+		<div id="header">
+      <nav id="headerNav">
+        <ul>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html" style="border-bottom: 2px solid #FF8ED8;">CONTACT</a></li>
+        </ul>
+      </nav>
+		</div>
+    
+    <div id="mainContent">
+    	<div class="dspSiteTextWhiteWindow">
+    	<h4 class="boldPinkTitle">HOLD OUT A LITTLE LONGER</h4>
+      <p class="bodyText">Fill out the form below and we will send you an email with a simple liability form for you to sign. After that we ship you your free can of Kool-Aid., satisfaction guaranteed. We've never heard a bad word from our wonderful customers, because they already moved on to the afterlife.</p>
+      </div>
+
+			<form id="contactUs" name="contactUs" action="">
+      	<input id="frmFirstName" class="frmInput" type="text" value="First Name" onFocus="blankOutText(this, 'First Name');" onBlur="checkForBlankInput(this, 'First Name')" />
+        <input id="frmLastName" class="frmInput" type="text" value="Last Name" onFocus="blankOutText(this, 'Last Name');" onBlur="checkForBlankInput(this, 'Last Name')" />
+        <input id="frmEmailAddress" class="frmInput" type="text" value="Email Address" onFocus="blankOutText(this, 'Email Address');" onBlur="checkForBlankInput(this, 'Email Address')" />
+        <input id="frmConfirmEmailAddress" class="frmInput" type="text" value="Confirm Email Address" onFocus="blankOutText(this, 'Confirm Email Address');" onBlur="checkForBlankInput(this, 'Confirm Email Address')" />
+        <button id="btnRequestSome" onClick="return validateForm();" >BRING ON THE AFTERLIFE</button>
+      </form>
+
+		</div>
+    
+		<div id="footer">
+    	<div id="fTopRow">
+        <nav id="footerNav">
+        <ul>
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        </nav>
+        
+				<div id="socialArea">
+          <a href="https://www.instagram.com" class="socialLinks"><img src="images/instagram.svg" alt="instagram" /></a>
+          <a href="https://www.facebook.com" class="socialLinks"><img src="images/facebook.svg" alt="facebook" /></a>
+          <a href="https://www.twitter.com" class="socialLinks"><img src="images/twitter.svg" alt="twitter" /></a>
+        </div>
+      </div> <!-- END fTopRow -->
+      
+      <div id="fBottomRow"> 
+      	<p id="footerText">&copy; ShadyCult 2016</p>
+      </div>
+		</div>
+	
+	</body>
+</html>
